@@ -1,6 +1,7 @@
 # CMSC 202 Fall 2018 <br> Project 1 – State Internet Access <br> Assignment: Project 1 – State Internet Access
 
 **1.	Overview**
+
 In this project, you will:
 - Practice basic C++ syntax including branching structures
 -	Write a program that calls multiple functions
