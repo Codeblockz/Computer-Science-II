@@ -24,7 +24,7 @@ Using the provided files, Dance.h, Hero.h, Game.h, makefile and proj2.cpp, creat
 To copy them, navigate to your project 2 folder and type:<br>
 ```cp /afs/umbc.edu/users/j/d/jdixon/pub/cs202/proj2/*.*``` .<br>
 ```cp /afs/umbc.edu/users/j/d/jdixon/pub/cs202/proj2/makefile``` .<br>
-Makefiles must be copied separately as they are not transferred using the *.* wildcards.
+Makefiles must be copied separately as they are not transferred using the ```*.*``` wildcards.
 You must use the provided header files (Dance.h, Hero.h and Game.h). You may only add HELPER functions and global constants to these files. Do not add member variables to any class.
 All user input must be validated. For example, if a menu allows for 1, 2, or 3 to be entered and the user enters a 4, it will re-prompt the user. However, the user is expected to always enter the correct data type. i.e. If the user is asked to enter an integer, they will. If they are asked to enter a character, they will. You do not need to worry about checking for correct data types.
 There are two input files for this project named, “proj2_dances.txt” and “proj2_heroes.txt”. The names can be stored as a constant. The files are already provided in Prof. Dixon’s course folder on GL. You can download it using instructions below.
