@@ -10,8 +10,7 @@ In this project, you will:<br>
 - Use a makefile to compile a project
 
 
-**2. Background**
-
+**2. Background**<br>
 Fortnite is an online video game that was released by Epic Games in 2017. With more than 125 million players in less than a year, Fortnite has redefined the free-to-play games everywhere. The more popular edition of the game called Battle Royale has been well documented as a distraction to a wide variety of students of all ages.
 One interesting aspect of the game involves a variety of dance moves that can be done by various in-game players (after earning or buying those moves). For this project, we are going to create a game where you play a dance battler who trains and can enter dance tournaments competing against a variety of enemy dancers.<br>
 **3. Assignment Description**<br>
