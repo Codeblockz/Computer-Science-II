@@ -17,3 +17,8 @@ This repository contains class projects for the Computer Science II class.<br>
 - Use a makefile to compile a project
 
 **Project 3 - Fortnite Dance Royale**
+- Implement a linked-list data structure,
+Use dynamic memory allocation to create new objects,
+Practice using C++ class syntax,
+Practice dynamically allocated arrays,
+Practice object-oriented thinking.
