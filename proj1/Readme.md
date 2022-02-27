@@ -31,7 +31,7 @@ This is a list of the requirements of this application. For this project, it is 
 -	The name of the input file is variable. As a hint, don’t forget that the “open” command requires a c-string. If you want to convert a string to a c-string, you can use the string.c_str() function.
 -	The easiest way to implement this project is using two-dimensional arrays (of the same size but of different data types). 
 -	Have a main menu that asks if the user wants to:
-  -	Read in the demographic data files and display them in a formatted way.
+  - Read in the demographic data files and display them in a formatted way.
   - Display the data for a specific state in a simple bar graph (graph labels are not required).
   - Exit and include a thank you message for the user
 
