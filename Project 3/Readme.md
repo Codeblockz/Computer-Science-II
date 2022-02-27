@@ -13,8 +13,8 @@ Deoxyribonucleic acid (DNA) is a molecule that carries the genetic instructions 
 DNA sequencing is the process of determining the precise order of nucleotides within a DNA molecule. The four nucleotides (G, C, A, T) are paired. This means that if one strand of the DNA has a G, the other strand will have a C. If one strand has an A, the other strand will have a T (and vice-versa). If you have just one of the strands, you have the leading strand. If you have both strands, each pair of nucleotides is called a base pair. Base pairs will always be (A+T, T+A, G+C, or C+G). We will be using several leading strands (without the pair) for this project.<br>
 
 A consensus sequence is determined by aligning many nucleotide sequences that share a common function, then determining the most commonly expressed nucleotide at each position. Often conserved sequences reflect a common function or binding domain. In this project, we are going to compare several nucleotide sequences (DNA strands) to evaluate consensus sequences.<br>
-In the example below, you can see three individual DNA strands. Each strand is made up of a sequence of A, T, G, or C. To create a consensus sequence, you need to look at three or more strands and see which nucleotide exists the most commonly in the same position.
-![img1](/asset/img1.png)
+In the example below, you can see three individual DNA strands. Each strand is made up of a sequence of A, T, G, or C. To create a consensus sequence, you need to look at three or more strands and see which nucleotide exists the most commonly in the same position.<br>
+![img1](./asset/img1.png)<br>
 Below is another example (T is U in this case):
 
 Assignment Description
