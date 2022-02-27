@@ -43,7 +43,8 @@ This is a list of the requirements of this application. For this project, it is 
   -	Must use input validation (assume the data is the correct type).
   - Must use at least one do..while loop.
   - Must use constants as needed.
-  - Must use setw to output the tables and graph.<br>
+  - Must use setw to output the tables and graph.
+
 ***6.	Sample Input and Output***<br>
 For this project, input files are very simple. The first data file is called proj1_states.txt and just includes the state names. 
 The second file is all of the demographic data by state. The data is numbered in alphabetical order with the exception of Alaska and Alabama (for some reason the demographic data for Alaska and Alabama is in reverse order). So, 0 is Alaska and 1 in Alabama.
