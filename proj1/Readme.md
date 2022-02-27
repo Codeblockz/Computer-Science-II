@@ -31,19 +31,19 @@ This is a list of the requirements of this application. For this project, it is 
 -	The name of the input file is variable. As a hint, don’t forget that the “open” command requires a c-string. If you want to convert a string to a c-string, you can use the string.c_str() function.
 -	The easiest way to implement this project is using two-dimensional arrays (of the same size but of different data types). 
 -	Have a main menu that asks if the user wants to:
-  * Read in the demographic data files and display them in a formatted way.
- - Display the data for a specific state in a simple bar graph (graph labels are not required).
- - Exit and include a thank you message for the user
+  -	Read in the demographic data files and display them in a formatted way.
+  - Display the data for a specific state in a simple bar graph (graph labels are not required).
+  - Exit and include a thank you message for the user
 - Specific coding requirements include:
- - Must use at least 5 different functions.
- - Must use at least two different arrays.
- - Must pass an array to a function.
- -	Must read in a file into a two-dimensional array.
- -	Must use at least one switch statement.
- -	Must use input validation (assume the data is the correct type).
- - Must use at least one do..while loop.
- - Must use constants as needed.
- - Must use setw to output the tables and graph.<br>
+  - Must use at least 5 different functions.
+  - Must use at least two different arrays.
+  - Must pass an array to a function.
+  -	Must read in a file into a two-dimensional array.
+  -	Must use at least one switch statement.
+  -	Must use input validation (assume the data is the correct type).
+  - Must use at least one do..while loop.
+  - Must use constants as needed.
+  - Must use setw to output the tables and graph.<br>
 ***6.	Sample Input and Output***<br>
 For this project, input files are very simple. The first data file is called proj1_states.txt and just includes the state names. 
 The second file is all of the demographic data by state. The data is numbered in alphabetical order with the exception of Alaska and Alabama (for some reason the demographic data for Alaska and Alabama is in reverse order). So, 0 is Alaska and 1 in Alabama.
