@@ -1,11 +1,19 @@
 # Computer-Science-II
 This repository contains class projects for the Computer Science II class.<br>
-## Project Summaries
+## Project Overviews
 
 **Project 1 – State Internet Access**<br>
-This project demonstrates basic C++ data structures and the use of them.
+- Practice basic C++ syntax including branching structures
+- Write a program that calls multiple functions
+- Manage a two-dimensional array
+- Use simple file input/output
 
 **Project 2 - Fortnite Dance Royale**
-This project demonstrates the use of encapsulation and the use of objects.
+- Practice basic C++ syntax including branching structures
+- Write classes and instantiate those classes using a constructor
+- Use vectors to hold objects
+- Use simple file input
+- Practice breaking projects into multiple files
+- Use a makefile to compile a project
 
-**Project 2 - Fortnite Dance Royale**
+**Project 3 - Fortnite Dance Royale**
