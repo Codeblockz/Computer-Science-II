@@ -1,0 +1,156 @@
+/*****************************************
+** File:    Proj1.cpp
+** Project: CMSC 202 Project 1, Fall 2018
+** Author:  Ryan Ellis
+** Date:    9/18/18
+** Section: 0304
+** E-mail:  r59@umbc.edu 
+**
+** This file contains the main program for Project 1.
+** This program reads the file specified as the first command
+** line argument, counts the number of words, spaces, and
+** characters, and displays the results in the format specified 
+** in the project description.
+**
+*****************************************/
+
+#include <iostream>
+#include <fstream>
+#include <string>
+
+using namespace std;
+
+const string MAIN_MENU = "Welcome to the Internet Demographic Tool\nWhat would you like to do?\n1. Load and Print Internet Demographic Data by State\n2. Graph Internet Demographic Data by State\n3. Exit";
+
+const int MAX_ROW = 51;
+const int MAX_COLUMN = 5;
+
+//-------------------------------------------------------
+// Name: mainMenu
+// PreCondition:  None
+// PostCondition: Returns the validated menu choice
+//---------------------------------------------------------
+int mainMenu();
+
+//-------------------------------------------------------
+// Name: loadStates
+// PreCondition:  The text file exist, array states exist
+// PostCondition: Returns true if state text and data
+//                was added to array and error statement if not
+//---------------------------------------------------------
+bool loadStates(string[]);
+
+
+//-------------------------------------------------------
+// Name: loadData
+// PreCondition:  The text file exist, array stateData exist
+// PostCondition: Returns true if state data text was added to array
+//---------------------------------------------------------
+bool loadData(int[][]);
+
+int main(){
+  //intiate arrays
+  string states[MAX_ROW];
+  int data[MAX_ROW][MAX_COLUMN];
+  bool stateExist = false;
+  bool dataExist = false;
+  int choice = 0;
+  do{
+    choice = mainMenu();
+    cout<<choice<<endl;
+    switch(choice){
+
+    //Load and print data  
+    case 1:
+      //load states
+      stateExist = loadStates(states);
+
+      //load data
+      dataExist = loadData(data);
+      cout<<stateExist<<endl;
+      break;
+      
+    case 2:
+      //graph data
+    default:
+      choice = 3;
+  }
+  }while( choice != 3);
+  return 0;
+}
+
+//-------------------------------------------------------
+// Name: mainMenu
+// PreCondition:  None
+// PostCondition: Returns the validated menu choice
+//---------------------------------------------------------
+int mainMenu(){
+  
+  int userChoice;
+  do{
+    
+    cout<<MAIN_MENU<<endl;;
+
+    cin>>userChoice;
+
+  switch(userChoice){
+  case 1:
+    break;
+  case 2:
+    break;
+  case 3:
+    break;
+  default:
+    cout<<"Please Choose agian"<<endl;  }
+  }
+  
+  while(userChoice>3 or userChoice<1);
+  return userChoice;
+
+}
+//-------------------------------------------------------
+// Name: loadStates
+// PreCondition:  The text file exist, array states exist
+// PostCondition: Returns true if state text and data
+//                was added to array and error statement if not
+//---------------------------------------------------------
+bool loadStates(string states[]){
+
+  string myfile;
+  cout<<"What is the name of the state file to import?"<<endl;
+  cin>>myfile;
+
+  //load file from c-string call
+  ifstream fileStream(myfile.c_str());
+  if (fileStream.is_open()){
+    for(int i = 0; i<MAX_ROW;i++){
+      fileStream>>states[i];
+    }
+    cout<<"State file successfully loaded"<<endl;
+    fileStream.close();
+    return  true;
+  }
+  
+  else{
+    cout<<"The file "<<myfile<<" was not opened"<<endl;
+    fileStream.close();
+    return  false;
+  }
+}
+
+
+//-------------------------------------------------------
+// Name: loadData
+// PreCondition:  The text file exist, array stateData exist
+// PostCondition: Returns true if state data text was added to array
+//---------------------------------------------------------
+bool loadData(int data[][]){
+
+
+
+
+
+
+
+
+}
