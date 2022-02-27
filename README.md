@@ -22,3 +22,9 @@ This repository contains class projects for the Computer Science II class.<br>
 - Practice using C++ class syntax, 
 - Practice dynamically allocated arrays, 
 - Practice object-oriented thinking. 
+
+**Project 4 – Safari Simulation**
+- Practice creating classes with inheritance 
+- Working with pointers as they pertain to classes
+- Using polymorphism
+- Working with a large number of classes
