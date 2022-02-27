@@ -1,11 +1,11 @@
 # CMSC 202 Fall 2018 <br> Project 1 – State Internet Access <br> Assignment: Project 1 – State Internet Access
 
-** 1.	Overview **
+**1.	Overview**
 In this project, you will:
-•	Practice basic C++ syntax including branching structures
-•	Write a program that calls multiple functions
-•	Manage a two-dimensional array
-•	Use simple file input/output
+- Practice basic C++ syntax including branching structures
+-	Write a program that calls multiple functions
+-	Manage a two-dimensional array
+-	Use simple file input/output
 2.	Background
 Computer access and usage has grown considerably since the early 1980s. Only 8 percent of households in 1984 reported owning a computer according to a census of that year. Most adults were just learning to use computers then and they were focused on word processing, video games, and jobs. Just thirty years later, the percentage households with a computer had increased almost tenfold to 79 percent. By 2016, a new study found that 89 percent of households had a computer, making it a common feature of everyday life. Nowadays, people use computers for an even wider range of uses including online banking, entertainment, socializing, and accessing health care. 
 As part of our US census report, a report titled “Computer and Internet Use in the United States: 2016” looks at access to computers and broadband internet subscriptions nationwide. Differences can be seen by demographic, social and geographic characteristics across the digital divide between those who have and those who lack access to computers and the internet. 
