@@ -28,3 +28,10 @@ This repository contains class projects for the Computer Science II class.<br>
 - Working with pointers as they pertain to classes
 - Using polymorphism
 - Working with a large number of classes
+
+**Project 5 – Racer**
+- Practice basic C++ syntax including branching structures
+- Write classes and instantiate those classes using a constructor
+- Create a templated data structure (queue or stack)
+- Use simple file input
+- Use overloaded operators to access templated data structure
