@@ -20,10 +20,10 @@ Your assignment is to develop Fortnite Dance Royale which is a role-playing game
 This is a list of the requirements of this application. For this project, you will be provided with header files to start you in the right direction. For you to earn all the points, however, you will need to meet all the defined requirements.
 You must follow the coding standard as defined in the CMSC 202 coding standards (found on Blackboard under course materials). This includes comments as required.
 The project must be completed in C++. You may not use any libraries or data structures that we have not learned in class. Libraries we have learned include <iostream>, <fstream>, <iomanip>, <vector>, <cmath>, <ctime>, <cstdlib>, and <string>. You should only use namespace std.
-Using the provided files, Dance.h, Hero.h, Game.h, makefile and proj2.cpp, create Fortnite Dance Royale. You can copy the files from my directory in ~~/afs/umbc.edu/users/j/d/jdixon/pub/cs202/proj2~~. 
-To copy them, navigate to your project 2 folder and type:
-cp /afs/umbc.edu/users/j/d/jdixon/pub/cs202/proj2/*.* .
-cp /afs/umbc.edu/users/j/d/jdixon/pub/cs202/proj2/makefile .
+Using the provided files, Dance.h, Hero.h, Game.h, makefile and proj2.cpp, create Fortnite Dance Royale. You can copy the files from my directory in ~~/afs/umbc.edu/users/j/d/jdixon/pub/cs202/proj2~~. <br>
+To copy them, navigate to your project 2 folder and type:<br>
+```cp /afs/umbc.edu/users/j/d/jdixon/pub/cs202/proj2/*.*``` .<br>
+```cp /afs/umbc.edu/users/j/d/jdixon/pub/cs202/proj2/makefile``` .<br>
 Makefiles must be copied separately as they are not transferred using the *.* wildcards.
 You must use the provided header files (Dance.h, Hero.h and Game.h). You may only add HELPER functions and global constants to these files. Do not add member variables to any class.
 All user input must be validated. For example, if a menu allows for 1, 2, or 3 to be entered and the user enters a 4, it will re-prompt the user. However, the user is expected to always enter the correct data type. i.e. If the user is asked to enter an integer, they will. If they are asked to enter a character, they will. You do not need to worry about checking for correct data types.
