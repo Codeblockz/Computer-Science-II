@@ -1,17 +1,18 @@
-# Project 3 – DNA Consensus Tool<br>Project 3 – DNA Consensus Tool
+# Project 3 – DNA Consensus Tool<br>Assignment: Project 3 – DNA Consensus Tool
 
-**1. Overview**
-In this project you will:
-Implement a linked-list data structure,
-Use dynamic memory allocation to create new objects,
-Practice using C++ class syntax, 
-Practice dynamically allocated arrays, 
-Practice object-oriented thinking. 
-Background
-Deoxyribonucleic acid (DNA) is a molecule that carries the genetic instructions used in the growth, development, functioning and reproduction of all known living organisms. Most DNA molecules consist of two strands coiled around each other to form a double helix. The two DNA strands are termed polynucleotides since they are composed of simpler monomer units called nucleotides. The nucleotides for DNA are made up of four bases - adenine (A), guanine (G), cytosine (C), and thymine (T).
-DNA sequencing is the process of determining the precise order of nucleotides within a DNA molecule. The four nucleotides (G, C, A, T) are paired. This means that if one strand of the DNA has a G, the other strand will have a C. If one strand has an A, the other strand will have a T (and vice-versa). If you have just one of the strands, you have the leading strand. If you have both strands, each pair of nucleotides is called a base pair. Base pairs will always be (A+T, T+A, G+C, or C+G). We will be using several leading strands (without the pair) for this project.
+**1. Overview**<br>
+In this project you will:<br>
+- Implement a linked-list data structure,
+- Use dynamic memory allocation to create new objects,
+- Practice using C++ class syntax, 
+- Practice dynamically allocated arrays, 
+- Practice object-oriented thinking. 
 
-A consensus sequence is determined by aligning many nucleotide sequences that share a common function, then determining the most commonly expressed nucleotide at each position. Often conserved sequences reflect a common function or binding domain. In this project, we are going to compare several nucleotide sequences (DNA strands) to evaluate consensus sequences.
+**2. Background**<br>
+Deoxyribonucleic acid (DNA) is a molecule that carries the genetic instructions used in the growth, development, functioning and reproduction of all known living organisms. Most DNA molecules consist of two strands coiled around each other to form a double helix. The two DNA strands are termed polynucleotides since they are composed of simpler monomer units called nucleotides. The nucleotides for DNA are made up of four bases - adenine (A), guanine (G), cytosine (C), and thymine (T).<br>
+DNA sequencing is the process of determining the precise order of nucleotides within a DNA molecule. The four nucleotides (G, C, A, T) are paired. This means that if one strand of the DNA has a G, the other strand will have a C. If one strand has an A, the other strand will have a T (and vice-versa). If you have just one of the strands, you have the leading strand. If you have both strands, each pair of nucleotides is called a base pair. Base pairs will always be (A+T, T+A, G+C, or C+G). We will be using several leading strands (without the pair) for this project.<br>
+
+A consensus sequence is determined by aligning many nucleotide sequences that share a common function, then determining the most commonly expressed nucleotide at each position. Often conserved sequences reflect a common function or binding domain. In this project, we are going to compare several nucleotide sequences (DNA strands) to evaluate consensus sequences.<br>
 In the example below, you can see three individual DNA strands. Each strand is made up of a sequence of A, T, G, or C. To create a consensus sequence, you need to look at three or more strands and see which nucleotide exists the most commonly in the same position.
 
 Below is another example (T is U in this case):
