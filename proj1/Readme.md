@@ -1,8 +1,7 @@
-CMSC 202 Fall 2018
-Project 1 – State Internet Access
-Assignment: Project 1 – State Internet Access
-Due Date: Thursday, September 27th at 8:59pm
-Value: 80 points
+#CMSC 202 Fall 2018
+#Project 1 – State Internet Access
+#Assignment: Project 1 – State Internet Access
+
 1.	Overview
 In this project, you will:
 •	Practice basic C++ syntax including branching structures
