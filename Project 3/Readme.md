@@ -14,7 +14,7 @@ DNA sequencing is the process of determining the precise order of nucleotides wi
 
 A consensus sequence is determined by aligning many nucleotide sequences that share a common function, then determining the most commonly expressed nucleotide at each position. Often conserved sequences reflect a common function or binding domain. In this project, we are going to compare several nucleotide sequences (DNA strands) to evaluate consensus sequences.<br>
 In the example below, you can see three individual DNA strands. Each strand is made up of a sequence of A, T, G, or C. To create a consensus sequence, you need to look at three or more strands and see which nucleotide exists the most commonly in the same position.
-
+![img1](/asset/img1.png)
 Below is another example (T is U in this case):
 
 Assignment Description
