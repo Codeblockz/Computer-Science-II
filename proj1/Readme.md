@@ -1,6 +1,6 @@
-#CMSC 202 Fall 2018
-#Project 1 – State Internet Access
-#Assignment: Project 1 – State Internet Access
+# CMSC 202 Fall 2018
+# Project 1 – State Internet Access
+# Assignment: Project 1 – State Internet Access
 
 1.	Overview
 In this project, you will:
