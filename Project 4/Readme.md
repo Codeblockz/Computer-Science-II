@@ -11,7 +11,8 @@ In this project, you will:<br>
 
 Animals live in a very complex ecosystem where lots of actions and inactions change their ability to survive. One of these such ecosystem is a savannah, where carnivores and herbivores alike can interact and coexist. A safari is a zoo which people can pass through and experience such an ecosystem. The fascinating things about this kind of environment is that the animals aren’t really in captivity but in their natural habitat. Tourists typically take a jeep or a bus through the safari and observe the wildlife from a safe distance and can see more realistic interaction then they would in a conventional zoo.
 For this project, we are going to create a simulated safari, where you the tourist or researcher can come back year after and see how populations of animals has changed based on random factors.
-<br>**3. Assignment Description**<br>
+
+**3. Assignment Description**<br>
 Your assignment is to develop a simulated safari where you can observe the population shifts of animals in your park. Initially, you will need to read in the list of initial animals observed in the park from a text file into a vector.
 1. There is no defined number of animals which the park starts with. (Do not use constants for this!)
 2. The file is loaded via command line argument (included in the provided proj4.cpp). 
@@ -23,12 +24,16 @@ Your assignment is to develop a simulated safari where you can observe the popul
      - Simulate
      - Exit
        - Upon exit, nothing is saved<br>
+       
  Based on these initial animals you will be able to choose how many years forward you would like to simulate your park. The simulation will inform you every year about which animals died and were born and survived. You will also after a simulation is complete be able to display all the current residents of your park as well as some statistics about them like what age they are and what kind of health they are in. 
 There will be 3 animals which will be simulated a lion a Gazelle and an elephant. Below is a hierarchy of the classes to be made.  
-
+<p align="center">
+<img src=./img1.png /><br>
+</p><br>
 
 These are the classes that you will be required to create. An arrow represents that class is inheriting from the one above it. An additional class Safari is created which is where the simulation will be taking place and the programs main control functionality will occur.
-<br>**4. Requirements:**<br>
+
+**4. Requirements:**<br>
 This is a list of the requirements of this application. For this project, you will be provided with header files to start you in the right direction. For you to earn all the points, however, you will need to meet all the defined requirements.
 - You must follow the coding standard as defined in the CMSC 202 coding standards (found on Blackboard under course materials). This includes comments as required.
 - The project must be turned in on time by the deadline listed above.
