@@ -34,6 +34,7 @@ This is a list of the requirements of this application. For this project, it is 
   -	Read in the demographic data files and display them in a formatted way.
   - Display the data for a specific state in a simple bar graph (graph labels are not required).
   - Exit and include a thank you message for the user
+
 - Specific coding requirements include:
   - Must use at least 5 different functions.
   - Must use at least two different arrays.
